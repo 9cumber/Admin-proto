@@ -1,0 +1,42 @@
+
+.list-group-item {
+    background: #add8e6;
+}
+
+
+.navbar-default {
+  background-color: #375a7f;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #00bc8c;
+}
+.navbar-header > a {
+    background-color: #375a7f;
+}
+#sign-out a {
+    color: #ffffff;
+}
+
+#sign-out a:hover,
+#sign-out a:focus {
+    color: #00bc8c;
+}
+
+.col-sm-9 {
+    background:white;
+    padding: 10px 20px;
+}
+
+.col-sm-9 .btn-primary {
+    margin-bottom: 20px;
+}
+
+.col-sm-9 .btn-warning {
+    float: right;
+}

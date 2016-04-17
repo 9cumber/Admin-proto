@@ -33,10 +33,16 @@
     padding: 10px 20px;
 }
 
-.col-sm-9 .btn-primary {
-    margin-bottom: 20px;
+div #form_ISBN {
+    padding: 20px;
+    background: #e9ffff;
+    border-radius: 1em;
+    margin-bottom: 10px;
 }
 
-.col-sm-9 .btn-warning {
-    float: right;
+.col-sm-9 .btn-primary {
+}
+
+.col-sm-9 #registration {
+    float: left;
 }

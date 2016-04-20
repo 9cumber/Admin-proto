@@ -40,10 +40,45 @@ div #form_ISBN {
     margin-bottom: 10px;
 }
 
+.col-sm-9 div #editISBN {
+    width: 80%;
+}
+
+.col-sm-9 div #editBookTitle {
+    width: 80%;
+}
+
+.col-sm-9 div #editAuthorName {
+    width: 80%;
+}
+
+.col-sm-9 div #editPublicationDate {
+    width: 80%;
+}
+
+.col-sm-9 div #editPrice {
+    width: 80%;
+}
+
+.col-sm-9 div #editCompany {
+    width: 80%;
+}
+
+.col-sm-9 div #editArrivalDate {
+    width: 80%;
+}
+
+.col-sm-9 div #editShelfCord {
+    width: 80%;
+}
+
 .col-sm-9 div #editQuantity {
     width: 30%;
 }
 
+.col-sm-9 div #Remarks {
+    width: 80%;
+}
 
 
 .col-sm-9 #registration {

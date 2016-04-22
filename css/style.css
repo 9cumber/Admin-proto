@@ -40,6 +40,10 @@ div #form_ISBN {
     margin-bottom: 10px;
 }
 
+div .modal-header {
+    background-color: #e9ffff;
+}
+
 .col-sm-9 div #editISBN {
     width: 80%;
 }
@@ -88,4 +92,8 @@ div #form_ISBN {
     border: outset 1px;
     float: right;
     margin-bottom: 20px;
+}
+
+.col-sm-12 .breadcrumb li + li:before {
+    content: ">";
 }

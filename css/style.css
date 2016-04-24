@@ -97,3 +97,7 @@ div .modal-header {
 .col-sm-12 .breadcrumb li + li:before {
     content: ">";
 }
+
+.col-sm-6 span {
+    float:right;
+}

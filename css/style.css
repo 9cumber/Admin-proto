@@ -72,6 +72,14 @@ div .modal-header {
     width: 80%;
 }
 
+.col-sm-9 div #editReturnDate {
+    width: 80%;
+}
+
+.col-sm-9 div #editSalesDate {
+    width: 80%;
+}
+
 .col-sm-9 div #editShelfCord {
     width: 80%;
 }

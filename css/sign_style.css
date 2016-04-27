@@ -70,6 +70,13 @@ form.login::-moz-placeholder
 }*/
 
 
+.form-button::-webkit-input-placeholder { color: white; }
+.form-button:-moz-placeholder { color: white; }
+.form-button::-moz-placeholder { color: white; }
+.form-button:-ms-input-placeholder { color: white; }
+
+
+
 form.login input[type="button"]
 {
     width: 100%;

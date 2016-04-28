@@ -102,10 +102,11 @@ div .modal-header {
     margin-bottom: 20px;
 }
 
-.col-sm-12 .breadcrumb li + li:before {
+.col-sm-9 #ResultMessage .breadcrumb li + li:before {
     content: ">";
 }
 
-.col-sm-6 span {
-    float:right;
+.col-sm-9 #ResultMessage ol {
+    display: inline;
+    background: #e9ffff;
 }

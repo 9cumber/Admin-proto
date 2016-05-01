@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin_Proto</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplePagination.css" type="text/css">
+    <script type="text/javascript" src="js/jquery.simplePagination.js"></script>
+
+
+</head>
+
+<body>
+    <div class="navbar navbar-default navbvar-fixed-top fixed_header">
+        <div class="container">
+            <div class="navbar-header"><a href="./admin_proto.html" class="navbar-brand btn-default">Admin_Proto</a></div>
+            <ul class="nav navbar-nav navbar-right" id="sign-out">
+                <li><a href="#">Sign-out</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 list-group">
+                <a href="./admin_regi.html" class="list-group-item">入荷登録</a>
+                <a href="#" class="list-group-item">在庫一覧</a>
+                <a href="#" class="list-group-item">返品登録</a>
+                <a href="#" class="list-group-item">返品一覧</a>
+                <a href="#" class="list-group-item">売上登録</a>
+                <a href="#" class="list-group-item">売上一覧</a>
+            </div>
+            <div class="col-sm-9">
+                <blockquote>
+                    <p>在庫一覧</p>
+                </blockquote>
+                <table class="table table-striped table-bordered table-hover" id="page-1">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>aaaaaaaaa</td>
+                            <td class="col-md-2">
+                                <button id="edit" class="btn btn-default navbar-btn">編集</button>
+                                <button id="deleat" class="btn btn-default navbar-btn">削除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>bbbbbbbbb</td>
+                            <td>
+                                <button id="edit" class="btn btn-default navbar-btn">編集</button>
+                                <button id="deleat" class="btn btn-default navbar-btn">削除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>ccccccccc</td>
+                            <td>
+                                <button id="edit" class="btn btn-default navbar-btn">編集</button>
+                                <button id="deleat" class="btn btn-default navbar-btn">削除</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>ddddddddd</td>
+                            <td>
+                                <button id="edit" class="btn btn-default navbar-btn">編集</button>
+                                <button id="deleat" class="btn btn-default navbar-btn">削除</button>
+                            </td>
+                        </tr>
+                        <br>
+                    </tbody>
+                    <div class="pager">
+                        </div>
+                </table>
+                </div>
+                </div>
+            </div>
+            <!--end_.container-->
+            <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

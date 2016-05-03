@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin_Proto</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/sign_style.css" rel="stylesheet">
+    <link href="css/index_style.css" rel="stylesheet">
   </head>
   
   <body>
@@ -17,9 +17,10 @@
           <div class="wrap">
             <p class="form-title">
 	      admin_proto</p>
-            <form class="login">
-              <input type="text" class="form-button" placeholder="ID">
-              <input type="password" class="form-button" placeholder="Password">
+	    
+            <form class="login" name="loginform" onClick="check()">
+              <input type="text" class="form-button" name="field1" placeholder="ID">
+              <input type="password" class="form-button" name="field2" placeholder="Password">
               <input type="button" value="Sign In" class="form-button btn btn-primary btn-sm" onclick="location.href='./admin_proto.html'">
 	      
               <div class="remember-forgot">
@@ -32,12 +33,10 @@
                       </label>
                     </div>
                   </div>
-                  <div class="col-md-6 forgot-pass-content">
-                    <a href="javascription:void(0)" class="forgot-pass">Forgot Password</a>
-                  </div>
                 </div>
               </div>
             </form>
+
           </div>
         </div>
       </div>

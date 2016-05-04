@@ -9,7 +9,7 @@ $(document).ready(function () {
 });
 
 
-$(function check(){
+function check(){
     var flag = 0;
     if(document.loginform.field1.value == ""){
 	flag = 1;
@@ -25,4 +25,4 @@ $(function check(){
     else{
 	location.href="./admin_proto.html";
     }
-});
+}

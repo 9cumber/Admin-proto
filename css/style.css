@@ -147,6 +147,14 @@ div .modal-header {
     margin-top: 6px;
 }
 
+.form-group .col-sm-10 button {
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.form-group  #conSearch {
+    width: 300px;
+}
 
 @media screen and (min-width: 768px) {
     #adv-search {

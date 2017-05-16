@@ -169,3 +169,14 @@ div .modal-header {
 	padding: 20px;
     }
 }
+
+td {
+}
+
+td .edit-table{
+    backgrond-color: transparent;
+}
+
+td .edit-table div {
+}
+

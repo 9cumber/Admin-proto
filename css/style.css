@@ -44,56 +44,56 @@ div .modal-header {
     background-color: #e9ffff;
 }
 
-.col-sm-9 div #editISBN {
+.col-sm-10 div #editISBN {
     width: 80%;
 }
 
-.col-sm-9 div #editBookTitle {
+.col-sm-10 div #editBookTitle {
     width: 80%;
 }
 
-.col-sm-9 div #editAuthorName {
+.col-sm-10 div #editAuthorName {
     width: 80%;
 }
 
-.col-sm-9 div #editPublicationDate {
+.col-sm-10 div #editPublicationDate {
     width: 80%;
 }
 
-.col-sm-9 div #editPrice {
+.col-sm-10 div #editPrice {
     width: 79.2%;
 }
 
-.col-sm-9 div #editCompany {
+.col-sm-10 div #editCompany {
     width: 80%;
 }
 
-.col-sm-9 div #editArrivalDate {
+.col-sm-10 div #editArrivalDate {
     width: 80%;
 }
 
-.col-sm-9 div #editReturnDate {
+.col-sm-10 div #editReturnDate {
     width: 80%;
 }
 
-.col-sm-9 div #editSalesDate {
+.col-sm-10 div #editSalesDate {
     width: 80%;
 }
 
-.col-sm-9 div #editShelfCord {
+.col-sm-10 div #editShelfCord {
     width: 80%;
 }
 
-.col-sm-9 div #editQuantity {
+.col-sm-10 div #editQuantity {
     width: 30%;
 }
 
-.col-sm-9 div #Remarks {
+.col-sm-10 div #Remarks {
     width: 80%;
 }
 
 
-.col-sm-9 #registration {
+.col-sm-10 #registration {
     height: 50px;
     width: 100px;
     font-size: 120%;
@@ -102,11 +102,11 @@ div .modal-header {
     margin-bottom: 20px;
 }
 
-.col-sm-9 #ResultMessage .breadcrumb li + li:before {
+.col-sm-10 #ResultMessage .breadcrumb li + li:before {
     content: ">";
 }
 
-.col-sm-9 #ResultMessage ol {
+.col-sm-10 #ResultMessage ol {
     display: inline;
     background: #e9ffff;
 }
@@ -168,6 +168,10 @@ div .modal-header {
         min-width: 700px;
 	padding: 20px;
     }
+}
+
+.edit-th {
+    text-align: center;
 }
 
 td {

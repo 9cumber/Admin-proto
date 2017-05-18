@@ -33,7 +33,7 @@
     padding: 10px 20px;
 }
 
-div #form_ISBN {
+div #form_ISBN, #form_reservation {
     padding: 20px;
     background: #e9ffff;
     border-radius: 1em;
@@ -84,7 +84,7 @@ div .modal-header {
     width: 80%;
 }
 
-.col-sm-10 div #editQuantity {
+.col-sm-10 div #editQuantity, #editReservationDate {
     width: 30%;
 }
 
@@ -184,3 +184,29 @@ td .edit-table{
 td .edit-table div {
 }
 
+
+.frame {
+    margin: auto;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    //width: 300px;
+    //height: 420px;
+    display: inline-block;
+    box-shadow: 0px 5px 20px -5px rgba(0 ,0 ,0 ,0.7);
+}
+
+#book-info #intro {
+    height: 400px;
+}
+
+.td-link {
+    cursor: pointer;
+}
+
+.td-link:hover {
+    color: #fff;
+    background: #a8dbf3;
+}

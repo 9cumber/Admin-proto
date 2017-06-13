@@ -210,3 +210,37 @@ td .edit-table div {
     color: #fff;
     background: #a8dbf3;
 }
+
+.detail1 {
+    font-family: arial, sans-serif;
+    border-bottom: solid 1px #ccc;
+}
+
+.detail1 .title {
+    font-size: 30px;
+}
+
+.detail {
+}
+
+.detail2 .price {
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.descBody {
+    padding: 0px 10px;
+}
+
+.detail3 {
+    margin-top: 20px;
+    border-top: solid 1px #ccc;
+}
+
+.detail3 p {
+    font-size: 16px;
+}
+
+.detail3 .total-stock {
+    margin-top: 10px;
+}

@@ -23,6 +23,10 @@ function check(){
 	return false;
     }
     else{
-	location.href="./admin_proto.html";
+	location.href="./admin_dashboard.html";
     }
 }
+
+/*function goCheck(){
+    if(window.event.keyCode==13){
+}*/
